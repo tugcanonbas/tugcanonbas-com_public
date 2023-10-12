@@ -1,0 +1,14 @@
+Packages
+Package.resolved
+.build
+xcuserdata
+*.xcodeproj
+DerivedData/
+.DS_Store
+db.sqlite
+.swiftpm
+.env
+.env.*
+.vscode
+.secrets
+```

@@ -1,0 +1,51 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+* {
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  overflow-x: hidden;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  margin: auto !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: 100svh;
+  }
+}
